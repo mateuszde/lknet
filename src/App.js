@@ -34,7 +34,7 @@ function App() {
           <NavBar />
 
           <Routes>
-            <Route exact path="/" element={<HomePage />} />
+            <Route exact path="/lknet" element={<HomePage />} />
           </Routes>
 
           <Footer />
