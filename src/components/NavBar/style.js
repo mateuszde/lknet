@@ -8,10 +8,10 @@ export const Wrapper = styled.nav`
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: transparent;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: ${({ bgcColor = false }) => (bgcColor ? 'rgba(0, 0, 0, 0.9)' : 'transparent')};
   color: white;
   z-index: 10;
+  transition: 0.2s ease;
 `;
 
 export const NavWrapper = styled.div`

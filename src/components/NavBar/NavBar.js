@@ -4,6 +4,7 @@ import { Wrapper, NavWrapper, LogoWrapper, StyledList, ListItem, StyledNavLink }
 
 const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [color, setColor] = useState(false);
   const checkbox = document.getElementById('checkbox');
 
   const handleToggle = () => {
@@ -17,8 +18,18 @@ const NavBar = () => {
     }
   };
 
+  const handleChangeColor = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener('scroll', handleChangeColor);
+
   return (
-    <Wrapper>
+    <Wrapper bgcColor={color}>
       <NavWrapper>
         <LogoWrapper>
           <h1>LKNET</h1>
