@@ -9,8 +9,8 @@ const HeroSection = () => {
       <StyledVideo src={video} autoPlay loop muted />
       <ContentWrapper>
         <UIWrapper>
-          <p>najważniejsze co budujemy, to zaufanie.</p>
-          <h1>Wykonawca infrastruktury teletechnicznej</h1>
+          <p>najważniejsze co budujemy, to zaufanie</p>
+          <h1>Wykonawca infrastruktury teletechnicznej </h1>
           <p>
             Specjalizujemy się w wykopach liniowych, przeciskach pod drogami, przewiertach
             sterowanych, wdmuchiwaniem kabli oraz spawaniu światłowodów.
