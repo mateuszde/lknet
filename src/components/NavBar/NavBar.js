@@ -1,6 +1,13 @@
-import { useEffect } from 'react';
 import { useState } from 'react';
-import { Wrapper, NavWrapper, LogoWrapper, StyledList, ListItem, StyledNavLink } from './style';
+import {
+  Wrapper,
+  NavWrapper,
+  LogoWrapper,
+  StyledList,
+  ListItem,
+  StyledNavLink,
+  Burger,
+} from './style';
 
 const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -34,6 +41,13 @@ const NavBar = () => {
         <LogoWrapper>
           <h1>LKNET</h1>
         </LogoWrapper>
+
+        <Burger onClick={handleToggle}>
+          <input type="checkbox" id="checkbox" />
+          <span id="span1"></span>
+          <span id="span2"></span>
+          <span id="span3"></span>
+        </Burger>
 
         <StyledList navbarOpen={navbarOpen} onClick={handleTouch}>
           <ListItem>

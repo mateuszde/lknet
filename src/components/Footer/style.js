@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../device';
 
 export const FooterWrapper = styled.footer`
   display: flex;
@@ -20,6 +21,10 @@ export const ContentWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 0 0 20px;
+
+  @media ${device.desktop} {
+    width: 100%;
+  }
 `;
 
 export const CopyrightWrapper = styled.div`

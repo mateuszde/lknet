@@ -19,6 +19,7 @@ const theme = {
     yellow: '#FFF402',
     yellow2: '#FEDC00',
     lightGray: '#9a9a9a',
+    white: '#fff',
   },
 };
 

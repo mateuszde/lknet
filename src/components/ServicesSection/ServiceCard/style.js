@@ -1,15 +1,25 @@
 import styled from 'styled-components';
+import { device } from '../../../device';
 
 export const Wrapper = styled.div`
   width: 400px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  /* border: 1px solid red; */
   border-top: 5px solid ${({ theme }) => theme.colors.yellow2};
-  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
-
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
+
+  @media ${device.desktop} {
+    width: 350px;
+  }
+
+  @media ${device.laptopS} {
+    width: 45%;
+
+    &:last-child {
+      margin-top: 50px;
+    }
+  }
 `;
 
 export const StyledImage = styled.img`

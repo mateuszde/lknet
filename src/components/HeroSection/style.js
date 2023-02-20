@@ -1,9 +1,10 @@
 import styled from 'styled-components';
-
+import { device } from '../../device';
 export const Wrapper = styled.header`
   width: 100%;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 `;
 
 export const StyledVideo = styled.video`
@@ -25,6 +26,10 @@ export const ContentWrapper = styled.div`
   color: white;
   transform: translate(-50%, 0);
 
+  @media ${device.laptopM} {
+    min-width: 90%;
+  }
+
   & h1 {
     text-transform: uppercase;
     margin: 10px 0;
@@ -43,6 +48,14 @@ export const ContentWrapper = styled.div`
 
 export const UIWrapper = styled.div`
   width: 70%;
+
+  @media ${device.laptopM} {
+    min-width: 80%;
+  }
+
+  @media ${device.laptopS} {
+    min-width: 100%;
+  }
 `;
 
 export const Overlay = styled.div`
