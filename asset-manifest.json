@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/lknet/static/js/main.75cc9711.js",
+    "main.js": "/lknet/static/js/main.8c6ddaa4.js",
     "static/media/videoFiber.mp4": "/lknet/static/media/videoFiber.2017643bf16692f4055d.mp4",
     "static/media/AboutUsPhoto.jpg": "/lknet/static/media/AboutUsPhoto.55a550bbbe09b68007d9.jpg",
     "index.html": "/lknet/index.html",
-    "main.75cc9711.js.map": "/lknet/static/js/main.75cc9711.js.map"
+    "main.8c6ddaa4.js.map": "/lknet/static/js/main.8c6ddaa4.js.map"
   },
   "entrypoints": [
-    "static/js/main.75cc9711.js"
+    "static/js/main.8c6ddaa4.js"
   ]
 }
