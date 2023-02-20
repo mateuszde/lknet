@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 
 export const Wrapper = styled.nav`
   padding: 20px 0;
@@ -39,7 +40,7 @@ export const StyledList = styled.ul`
 
 export const ListItem = styled.li``;
 
-export const StyledNavLink = styled(NavLink)`
+export const StyledNavLink = styled(NavHashLink)`
   color: white;
   text-decoration: none;
   letter-spacing: 1px;

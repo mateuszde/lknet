@@ -13,7 +13,7 @@ import image from '../../assets/images/AboutUsPhoto.jpg';
 
 const AboutUsSection = () => {
   return (
-    <AboutUsSectionWrapper>
+    <AboutUsSectionWrapper id="about-us">
       <Wrapper>
         <StyledColumnWrapper>
           <StyledImage src={image} />

@@ -4,7 +4,7 @@ import Button from '../UI/Button/Button';
 
 const HeroSection = () => {
   return (
-    <Wrapper>
+    <Wrapper id="header">
       <Overlay />
       <StyledVideo src={video} autoPlay loop muted />
       <ContentWrapper>

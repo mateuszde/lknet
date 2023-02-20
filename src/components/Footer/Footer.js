@@ -11,7 +11,7 @@ const getCurrentYear = () => currentTime.getFullYear();
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
       <ContentWrapper>
         <MissionWrapper>
           <Title small secondary>

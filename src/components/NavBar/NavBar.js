@@ -37,19 +37,19 @@ const NavBar = () => {
 
         <StyledList navbarOpen={navbarOpen} onClick={handleTouch}>
           <ListItem>
-            <StyledNavLink to="/">Strona główna</StyledNavLink>
+            <StyledNavLink to="/#header">Strona główna</StyledNavLink>
           </ListItem>
           <ListItem>
-            <StyledNavLink to="/o-nas">O nas</StyledNavLink>
+            <StyledNavLink to="/#about-us">O nas</StyledNavLink>
           </ListItem>
           <ListItem>
-            <StyledNavLink to="/oferta">Oferta</StyledNavLink>
+            <StyledNavLink to="/#offer">Oferta</StyledNavLink>
           </ListItem>
           <ListItem>
-            <StyledNavLink to="/kontakt">Galeria</StyledNavLink>
+            <StyledNavLink to="/#header">Galeria</StyledNavLink>
           </ListItem>
           <ListItem>
-            <StyledNavLink to="/kontakt">Kontakt</StyledNavLink>
+            <StyledNavLink to="/#contact">Kontakt</StyledNavLink>
           </ListItem>
         </StyledList>
       </NavWrapper>
