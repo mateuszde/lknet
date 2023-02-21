@@ -9,4 +9,8 @@ export const Wrapper = styled.div`
   @media ${device.laptopS} {
     flex-wrap: wrap;
   }
+
+  @media ${device.mobileXL} {
+    flex-direction: column;
+  }
 `;

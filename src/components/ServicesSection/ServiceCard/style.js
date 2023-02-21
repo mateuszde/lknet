@@ -20,6 +20,19 @@ export const Wrapper = styled.div`
       margin-top: 50px;
     }
   }
+
+  @media ${device.mobileXL} {
+    width: 70%;
+    margin: 40px auto;
+  }
+
+  @media ${device.mobileXL} {
+    width: 90%;
+  }
+
+  @media ${device.mobileL} {
+    width: 100%;
+  }
 `;
 
 export const StyledImage = styled.img`

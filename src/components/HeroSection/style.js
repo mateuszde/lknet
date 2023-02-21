@@ -30,11 +30,29 @@ export const ContentWrapper = styled.div`
     min-width: 90%;
   }
 
+  @media ${device.mobileLExtra} {
+    /* margin-top: 40px; */
+    bottom: 0;
+    transform: translate(-50%, 5%);
+  }
+
   & h1 {
     text-transform: uppercase;
     margin: 10px 0;
     font-size: 80px;
     color: white;
+
+    @media ${device.mobileLExtra} {
+      font-size: 60px;
+    }
+
+    @media ${device.mobileLExtraS} {
+      font-size: 48px;
+    }
+
+    @media ${device.mobileM} {
+      font-size: 35px;
+    }
   }
 
   & p {
@@ -69,4 +87,8 @@ export const Overlay = styled.div`
 
 export const ButtonWrapper = styled.div`
   margin-top: 50px;
+
+  @media ${device.mobileLExtra} {
+    display: none;
+  }
 `;

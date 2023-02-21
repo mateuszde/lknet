@@ -57,6 +57,10 @@ export const ColumnWrapper = styled.div`
       padding: 0;
     }
 
+    @media ${device.mobileXL} {
+      margin-bottom: 40px;
+    }
+
     p {
       padding: 10px 0;
 

@@ -25,6 +25,10 @@ export const ContentWrapper = styled.div`
   @media ${device.desktop} {
     width: 100%;
   }
+
+  @media ${device.tablet} {
+    flex-direction: column;
+  }
 `;
 
 export const CopyrightWrapper = styled.div`
@@ -35,4 +39,9 @@ export const CopyrightWrapper = styled.div`
 export const MissionWrapper = styled.div`
   max-width: 450px;
   padding: 0 20px;
+
+  @media ${device.tablet} {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
 `;

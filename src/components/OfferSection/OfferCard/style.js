@@ -11,6 +11,15 @@ export const Wrapper = styled.div`
   @media ${device.laptopS} {
     width: 45%;
   }
+
+  @media ${device.mobileXL} {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  @media ${device.mobileL} {
+    width: 100%;
+  }
 `;
 
 export const ListWrapper = styled.div`
