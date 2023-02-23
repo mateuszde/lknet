@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 
 //pages
 import HomePage from './pages/HomePage/HomePage';
+import Gallery from './pages/Gallery/Gallery';
 
 const theme = {
   colors: {
@@ -36,7 +37,10 @@ function App() {
 
           <Routes>
             <Route exact path="/" element={<HomePage />} />
+            <Route exact path="/galeria" element={<Gallery />} />
+
             <Route exact path="/lknet" element={<HomePage />} />
+            <Route exact path="/lknet/galeria" element={<Gallery />} />
           </Routes>
           <Footer />
         </Router>

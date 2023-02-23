@@ -68,7 +68,19 @@ export const StyledList = styled.ul`
 
 export const ListItem = styled.li``;
 
-export const StyledNavLink = styled(NavHashLink)`
+export const StyledNavHashLink = styled(NavHashLink)`
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.yellow2};
+  }
+`;
+
+export const StyledNavLink = styled(NavLink)`
   color: white;
   text-decoration: none;
   letter-spacing: 1px;

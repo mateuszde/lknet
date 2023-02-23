@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { device } from '../../device';
 export const Wrapper = styled.header`
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
+  height: ${({ secondary = false }) => (secondary ? '60vh' : '100vh')};
   position: relative;
   overflow: hidden;
 `;

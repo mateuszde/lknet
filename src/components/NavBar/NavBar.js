@@ -6,6 +6,7 @@ import {
   StyledList,
   ListItem,
   StyledNavLink,
+  StyledNavHashLink,
   Burger,
 } from './style';
 
@@ -51,19 +52,19 @@ const NavBar = () => {
 
         <StyledList navbarOpen={navbarOpen} onClick={handleTouch}>
           <ListItem>
-            <StyledNavLink to="/#header">Strona główna</StyledNavLink>
+            <StyledNavHashLink to="/#header">Strona główna</StyledNavHashLink>
           </ListItem>
           <ListItem>
-            <StyledNavLink to="/#about-us">O nas</StyledNavLink>
+            <StyledNavHashLink to="/#about-us">O nas</StyledNavHashLink>
           </ListItem>
           <ListItem>
-            <StyledNavLink to="/#offer">Oferta</StyledNavLink>
+            <StyledNavHashLink to="/#offer">Oferta</StyledNavHashLink>
           </ListItem>
           <ListItem>
-            <StyledNavLink to="/#header">Galeria</StyledNavLink>
+            <StyledNavLink to="/galeria">Galeria</StyledNavLink>
           </ListItem>
           <ListItem>
-            <StyledNavLink to="/#contact">Kontakt</StyledNavLink>
+            <StyledNavHashLink to="/#contact">Kontakt</StyledNavHashLink>
           </ListItem>
         </StyledList>
       </NavWrapper>
