@@ -14,6 +14,12 @@ export const StyledVideo = styled.video`
   object-fit: cover;
 `;
 
+export const StyledImg = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
+
 export const ContentWrapper = styled.div`
   position: absolute;
   min-width: 1200px;

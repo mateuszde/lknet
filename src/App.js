@@ -37,10 +37,10 @@ function App() {
 
           <Routes>
             <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/galeria" element={<Gallery />} />
+            <Route path="/galeria" element={<Gallery />} />
 
             <Route exact path="/lknet" element={<HomePage />} />
-            <Route exact path="/lknet/galeria" element={<Gallery />} />
+            <Route path="/lknet/galeria" element={<Gallery />} />
           </Routes>
 
           <Footer />

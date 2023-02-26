@@ -1,15 +1,24 @@
-import { Wrapper, StyledVideo, ContentWrapper, Overlay, UIWrapper, ButtonWrapper } from './style';
+import {
+  Wrapper,
+  StyledVideo,
+  StyledImg,
+  ContentWrapper,
+  Overlay,
+  UIWrapper,
+  ButtonWrapper,
+} from './style';
 import video from '../../assets/video/videoFiber.mp4';
 import Button from '../UI/Button/Button';
+import img from '../../assets/images/Gallery/02.jpg';
 
 const HeroSection = ({ secondary, secondaryTitle }) => {
   return (
     <Wrapper secondary={secondary} id="header">
       <Overlay />
       {secondary ? (
-        <p>JAKIŚ OBRAZEK TRZEBA BY TU ZARZUCIĆ</p>
+        <StyledVideo src={video} autoPlay loop muted playsInline />
       ) : (
-        <StyledVideo src={video} autoPlay loop muted />
+        <StyledVideo src={video} autoPlay loop muted playsInline />
       )}
 
       <ContentWrapper>
