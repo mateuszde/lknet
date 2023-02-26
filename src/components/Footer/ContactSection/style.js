@@ -51,3 +51,8 @@ export const PhoneWrapper = styled.div`
   display: flex;
   align-items: center;
 `;
+
+export const TelLInk = styled.a`
+  color: inherit;
+  text-decoration: none;
+`;

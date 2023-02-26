@@ -42,6 +42,7 @@ function App() {
             <Route exact path="/lknet" element={<HomePage />} />
             <Route exact path="/lknet/galeria" element={<Gallery />} />
           </Routes>
+
           <Footer />
         </Router>
       </>

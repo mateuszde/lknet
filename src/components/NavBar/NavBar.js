@@ -7,6 +7,7 @@ import {
   ListItem,
   StyledNavLink,
   StyledNavHashLink,
+  StyledHashLinkForLogo,
   Burger,
 } from './style';
 
@@ -40,7 +41,9 @@ const NavBar = () => {
     <Wrapper bgcColor={color}>
       <NavWrapper>
         <LogoWrapper>
-          <h1>LKNET</h1>
+          <StyledHashLinkForLogo to="/#header">
+            <h1>LKNET</h1>
+          </StyledHashLinkForLogo>
         </LogoWrapper>
 
         <Burger onClick={handleToggle}>

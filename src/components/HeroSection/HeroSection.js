@@ -30,7 +30,7 @@ const HeroSection = ({ secondary, secondaryTitle }) => {
 
         {!secondary && (
           <ButtonWrapper>
-            <Button>Poznaj ofertę</Button>
+            <Button link="/#offer">Poznaj ofertę</Button>
           </ButtonWrapper>
         )}
       </ContentWrapper>

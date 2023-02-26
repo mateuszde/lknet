@@ -40,7 +40,7 @@ const AboutUsSection = () => {
               Ci pomóc w Twoim następnym projekcie.
             </p>
           </div>
-          <Button>Kontakt do nas</Button>
+          <Button link="/#contact">Kontakt do nas</Button>
         </ColumnWrapper>
       </Wrapper>
     </AboutUsSectionWrapper>

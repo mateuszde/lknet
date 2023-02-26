@@ -1,9 +1,10 @@
-import { Wrapper } from './style';
+import { Wrapper, StyledNavHashlink } from './style';
 
-const Button = ({ children }) => {
+const Button = ({ children, link }) => {
   return (
     <Wrapper>
-      <span>{children}</span>
+      {link && <StyledNavHashlink to={link}>{children}</StyledNavHashlink>}
+      {!link && <span>{children}</span>}
     </Wrapper>
   );
 };

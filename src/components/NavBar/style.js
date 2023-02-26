@@ -80,6 +80,18 @@ export const StyledNavHashLink = styled(NavHashLink)`
   }
 `;
 
+export const StyledHashLinkForLogo = styled(StyledNavHashLink)`
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+
+  &:hover {
+    color: inherit;
+  }
+`;
+
 export const StyledNavLink = styled(NavLink)`
   color: white;
   text-decoration: none;

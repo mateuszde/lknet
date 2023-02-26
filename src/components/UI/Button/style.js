@@ -1,22 +1,5 @@
+import { NavHashLink } from 'react-router-hash-link';
 import styled from 'styled-components';
-
-// export const Wrapper = styled.div`
-//   padding: 15px;
-//   width: 200px;
-//   border: 2px solid ${({ theme }) => theme.colors.yellow2};
-//   background-color: ${({ theme }) => theme.colors.yellow2};
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   cursor: pointer;
-
-//   & p {
-//     color: black;
-//   }
-
-//   &:hover {
-//   }
-// `;
 
 export const Wrapper = styled.div`
   color: black;
@@ -53,4 +36,9 @@ export const Wrapper = styled.div`
     /* text-shadow: 1px 0px 0px #427388; */
     /* font-weight: bold; */
   }
+`;
+
+export const StyledNavHashlink = styled(NavHashLink)`
+  text-decoration: none;
+  color: inherit;
 `;

@@ -5,6 +5,7 @@ import {
   IconWrapper,
   StyledIcon,
   PhoneWrapper,
+  TelLInk,
 } from './style';
 import Title from '../../UI/Title/Title';
 
@@ -40,7 +41,9 @@ const ContactSection = ({ dataContact }) => {
                 <IconWrapper>
                   <StyledIcon icon="fa-solid fa-phone" />
                 </IconWrapper>
-                <p>{mobile.number}</p>
+                <p>
+                  <TelLInk href={`tel:${mobile.number}`}>{mobile.number}</TelLInk>
+                </p>
               </PhoneWrapper>
             ))}
           </div>
