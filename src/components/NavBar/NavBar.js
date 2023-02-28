@@ -9,7 +9,9 @@ import {
   StyledNavHashLink,
   StyledHashLinkForLogo,
   Burger,
+  StyledLogo,
 } from './style';
+import logo from '../../assets/logoPNG.png';
 
 const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -42,7 +44,8 @@ const NavBar = () => {
       <NavWrapper>
         <LogoWrapper>
           <StyledHashLinkForLogo to="/#header">
-            <h1>LKNET</h1>
+            {/* <h1>LKNET</h1> */}
+            <StyledLogo src={logo} alt="LK-net logo" />
           </StyledHashLinkForLogo>
         </LogoWrapper>
 

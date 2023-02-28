@@ -41,6 +41,10 @@ export const LogoWrapper = styled.div`
   }
 `;
 
+export const StyledLogo = styled.img`
+  height: 50px;
+`;
+
 export const StyledList = styled.ul`
   list-style: none;
   display: flex;
