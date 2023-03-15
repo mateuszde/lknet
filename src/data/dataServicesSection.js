@@ -1,9 +1,9 @@
 const relativePath = `${process.env.PUBLIC_URL}`;
 
 const imagesPath = {
-  0: `${relativePath}/img/spawanie.jpg`,
+  0: `${relativePath}/img/spawanie3.jpg`,
   1: `${relativePath}/img/praceZiemne.jpg`,
-  2: `${relativePath}/img/przewierty2.jpg`,
+  2: `${relativePath}/img/przewierty3.jpg`,
 };
 
 export const dataServicesSection = [

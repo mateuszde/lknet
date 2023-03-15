@@ -45,7 +45,7 @@ const NavBar = () => {
         <LogoWrapper>
           <StyledHashLinkForLogo to="/#header">
             {/* <h1>LKNET</h1> */}
-            <StyledLogo src={logo} alt="LK-net logo" />
+            <StyledLogo src={logo} alt="LK-net logo" bgcColor={color} />
           </StyledHashLinkForLogo>
         </LogoWrapper>
 

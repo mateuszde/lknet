@@ -36,13 +36,12 @@ export const LogoWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  & h1 {
-    font-size: 50px;
-  }
 `;
 
 export const StyledLogo = styled.img`
-  height: 50px;
+  /* height: 70px;  */
+  transition: 0.3s ease-in;
+  height: ${({ bgcColor = false }) => (bgcColor ? '60px' : '80px')};
 `;
 
 export const StyledList = styled.ul`
